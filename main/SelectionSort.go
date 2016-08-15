@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 //in every pass make the currSwapCandidate and magenta point to the first element in the sub-list
 
@@ -12,7 +15,7 @@ func main (){
 	//currSwapCandidateIndex:=0
 
 	fmt.Println("unsorted array: ", arr)
-
+	time.Now()
 	//outer loop to iterate on subset of array
 	for outerLoop:=0; outerLoop < len(arr); outerLoop++{
 
