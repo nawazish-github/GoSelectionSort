@@ -11,8 +11,6 @@ func main (){
 
 	fmt.Println("selection sort starting")
 	arr:= [5]int{2,1,4,3,5}
-	//magentaIndex:=0
-	//currSwapCandidateIndex:=0
 
 	fmt.Println("unsorted array: ", arr)
 	time.Now()
